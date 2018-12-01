@@ -16,8 +16,8 @@ resource_classes.each do |klass|
 
   puts "Resource: #{klass.name}"
   puts "Resource Allowed Actions: #{allowed_actions}"
-  puts "Resource Properties: #{resource_properties.join(', ')}"
-  puts "Other Properties: #{other_properties.join(', ')}"
-  puts "Common Properties: #{common_properties.join(', ')}"
+  puts "Resource Properties: #{resource_properties.join(' ')}"
+  puts "Other Properties: #{other_properties.join(' ')}"
+  puts "Common Properties: #{common_properties.join(' ')}"
   puts ""
 end
